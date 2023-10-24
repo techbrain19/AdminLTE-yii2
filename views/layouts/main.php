@@ -75,7 +75,12 @@ AppAsset::register($this);
 <main>
     <div>
         <?= $this->render('header') ?>
-        <?= $content ?>
+        <section class="content">
+       <div class='container-fluid'>
+       <?= $content ?>
+       </div>
+      </section>
+    
     </div>
 </main>
 <?php $this->endBody() ?>
